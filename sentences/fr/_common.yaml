@@ -504,7 +504,7 @@ expansion_rules:
   mets: "(mets|mettre|passe|passer|<mets_dirty>)"
   ouvre: "(ouvre|ouvrir|<monte>)"
   regle: "(règle|régler|met|mets|mettre|ajuste|ajuster|change|changer|<mets_dirty>)"
-  renvoie: "(renvoie|renvoyer|arrête|arrêter|stop[pe]|stopper)"
+  renvoie: "(renvoie|renvoyer|arrête|arrêter|stop[pe]|stopper|range|ranger)"
   reprends: "(remets|remettre|reprends|reprend|reprendre|reprise|relance|relancer)"
   cree: "(créer|crée)"
   supprime: "(supprime|supprimer|annule|annuler)"
@@ -530,8 +530,8 @@ expansion_rules:
 
   # Domains and Things
   lumiere: "(lumière[s]|lampe[s]|ampoule[s]|éclairage[s])"
-  ventilateur: "[le ](ventilateur|brasseur d'air)"
-  ventilateurs: "[les ](ventilateurs|brasseurs d'air)"
+  ventilateur: "[le ](ventilateur|ventilo|brasseur d'air)"
+  ventilateurs: "[les ](ventilateurs|ventilos|brasseurs d'air)"
   fenetre: "(fenetre[s]|fenêtre[s]|baie[s]|velux|vélux|lucarne[s])"
   appareil: "(appareil|machine|équipement)[s]"
   capteur: "(capteur|sonde|détecteur)[s]"
